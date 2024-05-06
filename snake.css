@@ -1,0 +1,24 @@
+body{
+	font-family: monospace;
+}
+.snake{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(50%, 50%);
+}
+h1{
+	text-align: center;
+}
+input{
+	margin: 3px
+}
+
+@keyframes wave{
+	0% {transform: scale(1);}
+	50% {transform:scale(2);}
+	0% {transform: scale(1);}
+}
+input.wave{
+	animation: wave 0.4s cubic-bezier(.17, .67, .83, .67);
+}
