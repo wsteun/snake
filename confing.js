@@ -10,5 +10,3 @@ const key = {
 };
 let movingDirection;
 let moveInterval;
-
-
